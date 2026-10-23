@@ -1,5 +1,17 @@
 # YOLOv9
 
+> **About this repository.** This is a personal copy of the official YOLOv9 implementation by **Chien-Yao Wang, I-Hau Yeh and Hong-Yuan Mark Liao** (Institute of Information Science, Academia Sinica), maintained at **[WongKinYiu/yolov9](https://github.com/WongKinYiu/yolov9)**. All code, model configurations, figures and documentation belong to the original authors. I did not write any of this code and I do not claim authorship.
+>
+> - **Upstream snapshot:** commit [`5b1ea9a`](https://github.com/WongKinYiu/yolov9/commit/5b1ea9a8b3f0ffe4fe0e203ec6232d788bb3fcff) ("Create gelan-t.yaml", 10 June 2024). The full upstream history is preserved.
+> - **Changes in this copy:** none. The source tree is identical to that upstream commit, and the only addition is this note in the README.
+> - **Purpose:** imported on 22 September 2025 as a reference copy of YOLOv9 / GELAN for object‑detection work. This repository contains no custom datasets, trained weights or experiment code of mine. For training, inference and evaluation, follow the upstream instructions below.
+> - **License:** GPL‑3.0, inherited from upstream (see [`LICENSE.md`](LICENSE.md)).
+> - **Citation:** if you use YOLOv9, please cite the original paper (see [Citation](#citation)) and refer to the upstream repository for issues, updates and releases.
+>
+> Everything below this note is the original upstream README, unchanged.
+
+---
+
 Implementation of paper - [YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](https://arxiv.org/abs/2402.13616)
 
 [![arxiv.org](http://img.shields.io/badge/cs.CV-arXiv%3A2402.13616-B31B1B.svg)](https://arxiv.org/abs/2402.13616)
